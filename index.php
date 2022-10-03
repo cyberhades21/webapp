@@ -41,22 +41,22 @@ include '_libs/load.php'
   </head>
   <body>
     
-<header>
-  <?php load_template('header'); ?>
-</header>
+    <header>
+      <?php load_template('header'); ?>
+    </header>
 
-<main>
+    <main>
 
-  <?php load_template('landing'); ?>
+      <?php load_template('landing'); ?>
 
-  <?php load_template('_photogram');?>
+      <?php load_template('_photogram');?>
 
-</main>
+    </main>
 
-<?php load_template('_footer');?>
+    <?php load_template('_footer');?>
 
 
-    <script src="/app/assets/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="/app/assets/dist/js/bootstrap.bundle.min.js"></script>
 
       
   </body>
